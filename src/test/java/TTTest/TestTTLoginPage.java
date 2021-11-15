@@ -31,6 +31,7 @@ public void setup() {
 	objTTLoginpage= new TTLoginpage(driver);
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("https://test.teamtracker.locationguru.in/");
+	System.out.println("setup method executed");
 	
 }
 
@@ -42,11 +43,12 @@ public void TTLTest() throws Exception {
 	System.out.println("started");
 	
 	objTTLoginpage.pressLoginbutton();	
-	System.out.println("started_3");
+	System.out.println("started_3 test ");
 }
 @AfterClass
 public void afterClass() {
  driver.close();
+ System.out.println("after class method executed");
 }
 
 }

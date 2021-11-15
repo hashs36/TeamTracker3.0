@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TeamTracker" duration-ms="14657" started-at="2021-10-27T06:15:43Z" finished-at="2021-10-27T06:15:57Z">
+  <suite name="Default suite" duration-ms="17336" started-at="2021-11-15T19:39:50Z" finished-at="2021-11-15T19:40:08Z">
     <groups>
     </groups>
-    <test name="TTLogin" duration-ms="14657" started-at="2021-10-27T06:15:43Z" finished-at="2021-10-27T06:15:57Z">
+    <test name="Default test" duration-ms="17336" started-at="2021-11-15T19:39:50Z" finished-at="2021-11-15T19:40:08Z">
       <class name="TTTest.TestTTLoginPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TTTest.TestTTLoginPage@2ac273d3]" name="setup" is-config="true" duration-ms="8464" started-at="2021-10-27T06:15:43Z" finished-at="2021-10-27T06:15:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TTTest.TestTTLoginPage@6767c1fc]" name="setup" is-config="true" duration-ms="10072" started-at="2021-11-15T19:39:50Z" finished-at="2021-11-15T19:40:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TTLTest()[pri:0, instance:TTTest.TestTTLoginPage@2ac273d3]" name="TTLTest" duration-ms="6147" started-at="2021-10-27T06:15:51Z" finished-at="2021-10-27T06:15:57Z">
+        <test-method status="PASS" signature="TTLTest()[pri:0, instance:TTTest.TestTTLoginPage@6767c1fc]" name="TTLTest" duration-ms="7218" started-at="2021-11-15T19:40:00Z" finished-at="2021-11-15T19:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TTLTest -->
-        <test-method status="FAIL" signature="afterClass()[pri:0, instance:TTTest.TestTTLoginPage@2ac273d3]" name="afterClass" is-config="true" duration-ms="2" started-at="2021-10-27T06:15:57Z" finished-at="2021-10-27T06:15:57Z">
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:TTTest.TestTTLoginPage@6767c1fc]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-11-15T19:40:08Z" finished-at="2021-11-15T19:40:08Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at TTTest.TestTTLoginPage.afterClass(TestTTLoginPage.java:49)
+at TTTest.TestTTLoginPage.afterClass(TestTTLoginPage.java:50)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,6 +53,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TTTest.TestTTLoginPage -->
-    </test> <!-- TTLogin -->
-  </suite> <!-- TeamTracker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
