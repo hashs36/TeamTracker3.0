@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TeamTracker]">
+  <test thread-count="5" name="TTLogin(failed)">
+    <classes>
+      <class name="TTTest.TestTTLoginPage">
+        <methods>
+          <include name="TTLTest"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TTTest.TestTTLoginPage -->
+    </classes>
+  </test> <!-- TTLogin(failed) -->
+</suite> <!-- Failed suite [TeamTracker] -->
